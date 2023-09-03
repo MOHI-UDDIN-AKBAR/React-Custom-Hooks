@@ -1,4 +1,4 @@
-import useToggle from "../Hooks/useToggle";
+import useToggle from "./useToggle";
 
 const ToggleComponent = () => {
   const { value, toggle } = useToggle(false);

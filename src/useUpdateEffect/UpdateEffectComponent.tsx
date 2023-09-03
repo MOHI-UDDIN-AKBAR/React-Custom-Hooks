@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useUpdateEffect from "../Hooks/useUpdateEffect";
+import useUpdateEffect from "./useUpdateEffect";
 
 const UpdateEffectComponent = () => {
   const [counter, setCounter] = useState(0);

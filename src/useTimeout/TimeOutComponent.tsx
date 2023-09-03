@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useTimeout from "../Hooks/useTimeout";
+import useTimeout from "./useTimeout";
 
 const TimeOutComponent = () => {
   const [counter, setCounter] = useState<number>(10);

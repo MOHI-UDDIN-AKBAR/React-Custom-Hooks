@@ -9,6 +9,7 @@ const useArray = (defaultArray: number[]) => {
 
   const changeSecondElement = useCallback((value: number) => {
     setArray((prevArray) => {
+      if (prevArray.length < 2) return prevArray;
       const newArray = Array.of(...prevArray);
       newArray?.splice(1, 1, value);
       return newArray;
@@ -17,21 +18,23 @@ const useArray = (defaultArray: number[]) => {
 
   const removeSecondElement = useCallback(() => {
     setArray((prevArray) => {
+      if (prevArray.length < 2) return prevArray;
       return prevArray
         .splice(0, 1)
         .concat(prevArray?.splice(1, prevArray?.length - 1));
     });
   }, []);
 
-  const keepElement = useCallback((callback: (n: number) => boolean) => {
-    setArray((prevArray) => {
-      return prevArray?.filter(callback);
-    });
-  }, []);
+  const keepElement = useCallback(
+    (callback: (n: number) => boolean) =>
+      setArray((prevArray) => prevArray?.filter(callback)),
+    []
+  );
 
-  const setElement = useCallback((newArray: number[]) => {
-    setArray(newArray);
-  }, []);
+  const setElement = useCallback(
+    (newArray: number[]) => setArray(newArray),
+    []
+  );
 
   const clear = useCallback(() => setArray([]), []);
 

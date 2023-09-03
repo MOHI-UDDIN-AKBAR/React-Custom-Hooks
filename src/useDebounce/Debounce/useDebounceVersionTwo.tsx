@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import useTimeout from "../useTimeout";
+import useTimeout from "../../useTimeout/useTimeout";
 
 const useDebounceVersionTwo = (
   callback: () => void,
