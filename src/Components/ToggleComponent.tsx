@@ -2,14 +2,21 @@ import React from "react";
 import useToggle from "../Hooks/useToggle";
 
 const ToggleComponent = () => {
-  const { value, toggleValue } = useToggle(false);
+  const { value, toggle } = useToggle(false);
+
   return (
-    <div>
+    <>
       <p>value : {value.toString()}</p>
-      <button onClick={() => toggleValue()}>Toggle</button>
-      <button onClick={() => toggleValue(true)}>turn into True</button>
-      <button onClick={() => toggleValue(false)}>turn into false </button>
-    </div>
+      <button type="button" onClick={() => toggle()}>
+        Toggle
+      </button>
+      <button type="button" onClick={() => toggle(false)}>
+        make False
+      </button>
+      <button type="button" onClick={() => toggle(true)}>
+        make True
+      </button>
+    </>
   );
 };
 
