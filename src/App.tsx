@@ -1,11 +1,13 @@
 import React from "react";
-import TimeOutComponent from "./Components/TimeOutComponent";
+import DebounceComponent from "./Components/DebounceComponent";
+// import TimeOutComponent from "./Components/TimeOutComponent";
 // import ToggleComponent from "./Components/ToggleComponent";
 
 const App = () => (
   <React.Fragment>
     {/* <ToggleComponent /> */}
-    <TimeOutComponent />
+    {/* <TimeOutComponent /> */}
+    <DebounceComponent />
   </React.Fragment>
 );
 
