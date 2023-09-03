@@ -1,9 +1,11 @@
 import React from "react";
-import ToggleComponent from "./Components/ToggleComponent";
+import TimeOutComponent from "./Components/TimeOutComponent";
+// import ToggleComponent from "./Components/ToggleComponent";
 
 const App = () => (
   <React.Fragment>
-    <ToggleComponent />
+    {/* <ToggleComponent /> */}
+    <TimeOutComponent />
   </React.Fragment>
 );
 
