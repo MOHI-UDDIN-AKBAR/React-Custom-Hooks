@@ -1,11 +1,13 @@
-import { useEffect, useRef, useCallback, useState } from "react";
+import { useEffect, useRef, useCallback } from "react";
 
-const useTimeout = (delay: number = 0) => {
-  const [counter, setCounter] = useState<number>(10);
+const useTimeout = (callbackF: () => void, delay: number = 0) => {
   const timeoutId = useRef<NodeJS.Timeout | null>();
-
+  const callbackRef = useRef(callbackF);
+  useEffect(() => {
+    callbackRef.current = callbackF;
+  }, [callbackF]);
   const set = useCallback(() => {
-    timeoutId.current = setTimeout(() => setCounter(0), delay);
+    timeoutId.current = setTimeout(() => callbackRef.current(), delay);
   }, [delay]);
 
   const clear = useCallback(() => {
@@ -25,7 +27,7 @@ const useTimeout = (delay: number = 0) => {
     return clear;
   }, [delay, set, clear]);
 
-  return { counter, setCounter, reset, clear };
+  return { reset, clear };
 };
 
 export default useTimeout;
