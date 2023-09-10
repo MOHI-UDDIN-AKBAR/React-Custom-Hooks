@@ -1,5 +1,5 @@
 import React from "react";
-import useArray from "../Hooks/useArray";
+import useArray from "./useArray";
 
 const ArrayComponent = () => {
   const {

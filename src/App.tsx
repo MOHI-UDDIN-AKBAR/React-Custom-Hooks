@@ -1,9 +1,9 @@
-import React from "react";
-// import DebounceComponent from "./Components/DebounceComponent";
-// import UpdateEffectComponent from "./Components/UpdateEffectComponent";
-import ArrayComponent from "./Components/ArrayComponent";
-// import TimeOutComponent from "./Components/TimeOutComponent";
-// import ToggleComponent from "./Components/ToggleComponent";
+// import PreviousComponent from "./usePrevious/PreviousComponent";
+import StateWithHistoryComponent from "./useStateWithHistory/StateWithHistoryComponent";
+// import DebounceComponent from "./useDebounce/DebounceComponent";
+// import UpdateEffectComponent from "./useUpdateEffect/UpdateEffectComponent";
+// import ArrayComponent from "./useArray/ArrayComponent";
+// import TimeOutComponent from "./useTimeout/TimeOutComponent";
 
 const App = () => (
   <>
@@ -11,7 +11,9 @@ const App = () => (
     {/* <TimeOutComponent /> */}
     {/* <DebounceComponent /> */}
     {/* <UpdateEffectComponent /> */}
-    <ArrayComponent />
+    {/* <ArrayComponent /> */}
+    {/* <PreviousComponent /> */}
+    <StateWithHistoryComponent />
   </>
 );
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import useDebounce from "../Hooks/Debounce/useDebounce";
-// import useDebounceVersionTwo from "../Hooks/Debounce/useDebounceVersionTwo";
+import useDebounce from "./Debounce/useDebounce";
+// import useDebounceVersionTwo from "./Debounce/useDebounceVersionTwo";
 
 const DebounceComponent = () => {
   const [counter, setCounter] = useState(0);
