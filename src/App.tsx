@@ -1,4 +1,5 @@
-import PreviousComponent from "./usePrevious/PreviousComponent";
+// import PreviousComponent from "./usePrevious/PreviousComponent";
+import StateWithHistoryComponent from "./useStateWithHistory/StateWithHistoryComponent";
 // import DebounceComponent from "./useDebounce/DebounceComponent";
 // import UpdateEffectComponent from "./useUpdateEffect/UpdateEffectComponent";
 // import ArrayComponent from "./useArray/ArrayComponent";
@@ -11,7 +12,8 @@ const App = () => (
     {/* <DebounceComponent /> */}
     {/* <UpdateEffectComponent /> */}
     {/* <ArrayComponent /> */}
-    <PreviousComponent />
+    {/* <PreviousComponent /> */}
+    <StateWithHistoryComponent />
   </>
 );
 
