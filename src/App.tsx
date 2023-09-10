@@ -4,8 +4,9 @@
 // import UpdateEffectComponent from "./useUpdateEffect/UpdateEffectComponent";
 // import ArrayComponent from "./useArray/ArrayComponent";
 // import TimeOutComponent from "./useTimeout/TimeOutComponent";
+// import StorageComponent from "./useStorage/StorageComponent";
 
-import StorageComponent from "./useStorage/StorageComponent";
+import FetchComponent from "./useFetch/FetchComponent";
 
 const App = () => (
   <>
@@ -16,7 +17,8 @@ const App = () => (
     {/* <ArrayComponent /> */}
     {/* <PreviousComponent /> */}
     {/* <StateWithHistoryComponent /> */}
-    <StorageComponent />
+    {/* <StorageComponent /> */}
+    <FetchComponent />
   </>
 );
 
