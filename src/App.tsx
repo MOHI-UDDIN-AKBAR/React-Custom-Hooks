@@ -5,8 +5,9 @@
 // import ArrayComponent from "./useArray/ArrayComponent";
 // import TimeOutComponent from "./useTimeout/TimeOutComponent";
 // import StorageComponent from "./useStorage/StorageComponent";
+// import FetchComponent from "./useFetch/FetchComponent";
 
-import FetchComponent from "./useFetch/FetchComponent";
+import DeepCompareEffect from "./useDeepCompareEffect/DeepCompareEffect";
 
 const App = () => (
   <>
@@ -18,7 +19,8 @@ const App = () => (
     {/* <PreviousComponent /> */}
     {/* <StateWithHistoryComponent /> */}
     {/* <StorageComponent /> */}
-    <FetchComponent />
+    {/* <FetchComponent /> */}
+    <DeepCompareEffect />
   </>
 );
 
