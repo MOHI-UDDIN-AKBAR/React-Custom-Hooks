@@ -13,8 +13,8 @@
 // import MediaQueryComponent from "./useMediaQuery/MediaQueryComponent";
 // import GeolocationComponent from "./useGeolocation/GeolocationComponent";
 // import StateWithValidationComponent from "./useStateWithValidation/StateWithValidationComponent";
-
-import SizeComponent from "./useSize/SizeComponent";
+import UseEffectOnceComponent from "./useEffectOnce/UseEffectOnceComponent";
+// import SizeComponent from "./useSize/SizeComponent";
 
 const App = () => (
   <>
@@ -34,7 +34,8 @@ const App = () => (
     {/* <MediaQueryComponent /> */}
     {/* <GeolocationComponent /> */}
     {/* <StateWithValidationComponent /> */}
-    <SizeComponent />
+    {/* <SizeComponent /> */}
+    <UseEffectOnceComponent />
   </>
 );
 
