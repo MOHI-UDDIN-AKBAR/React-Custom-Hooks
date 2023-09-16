@@ -10,7 +10,9 @@
 // import EventListenerComponent from "./useEventListener/EventListenerComponent";
 // import OnScreenComponent from "./useOnScreen/OnScreenComponent";
 // import WindowSizeComponent from "./useWindowSize/WindowSizeComponent";
-import MediaQueryComponent from "./useMediaQuery/MediaQueryComponent";
+// import MediaQueryComponent from "./useMediaQuery/MediaQueryComponent";
+import GeolocationComponent from "./useGeolocation/GeolocationComponent";
+// import StateWithValidationComponent from "./useStateWithValidation/StateWithValidationComponent";
 
 const App = () => (
   <>
@@ -27,7 +29,9 @@ const App = () => (
     {/* <EventListenerComponent /> */}
     {/* <OnScreenComponent /> */}
     {/* <WindowSizeComponent /> */}
-    <MediaQueryComponent />
+    {/* <MediaQueryComponent /> */}
+    <GeolocationComponent />
+    {/* <StateWithValidationComponent /> */}
   </>
 );
 
