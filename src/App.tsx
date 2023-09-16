@@ -9,7 +9,8 @@
 // import DeepCompareEffect from "./useDeepCompareEffect/DeepCompareEffect";
 // import EventListenerComponent from "./useEventListener/EventListenerComponent";
 // import OnScreenComponent from "./useOnScreen/OnScreenComponent";
-import WindowSizeComponent from "./useWindowSize/WindowSizeComponent";
+// import WindowSizeComponent from "./useWindowSize/WindowSizeComponent";
+import MediaQueryComponent from "./useMediaQuery/MediaQueryComponent";
 
 const App = () => (
   <>
@@ -25,7 +26,8 @@ const App = () => (
     {/* <DeepCompareEffect /> */}
     {/* <EventListenerComponent /> */}
     {/* <OnScreenComponent /> */}
-    <WindowSizeComponent />
+    {/* <WindowSizeComponent /> */}
+    <MediaQueryComponent />
   </>
 );
 

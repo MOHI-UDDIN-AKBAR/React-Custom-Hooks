@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 
 const useEventListener = (
   eventType: string,
-  callback: (e: Event) => void,
+  callback: (e: any) => void,
   element: any = window
 ) => {
   const callbackRef = useRef(callback);
@@ -11,11 +11,11 @@ const useEventListener = (
   }, [callback]);
 
   useEffect(() => {
-    const handler = (e: Event) => callbackRef.current(e);
+    const handler = (e: any) => callbackRef.current(e);
 
-    window.addEventListener(eventType, handler);
-    return () => window.removeEventListener(eventType, handler);
-  }, [eventType, element, callbackRef]);
+    element.addEventListener(eventType, handler);
+    return () => element.removeEventListener(eventType, handler);
+  }, [eventType, element]);
 };
 
 export default useEventListener;
