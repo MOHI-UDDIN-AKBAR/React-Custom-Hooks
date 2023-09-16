@@ -11,8 +11,10 @@
 // import OnScreenComponent from "./useOnScreen/OnScreenComponent";
 // import WindowSizeComponent from "./useWindowSize/WindowSizeComponent";
 // import MediaQueryComponent from "./useMediaQuery/MediaQueryComponent";
-import GeolocationComponent from "./useGeolocation/GeolocationComponent";
+// import GeolocationComponent from "./useGeolocation/GeolocationComponent";
 // import StateWithValidationComponent from "./useStateWithValidation/StateWithValidationComponent";
+
+import SizeComponent from "./useSize/SizeComponent";
 
 const App = () => (
   <>
@@ -30,8 +32,9 @@ const App = () => (
     {/* <OnScreenComponent /> */}
     {/* <WindowSizeComponent /> */}
     {/* <MediaQueryComponent /> */}
-    <GeolocationComponent />
+    {/* <GeolocationComponent /> */}
     {/* <StateWithValidationComponent /> */}
+    <SizeComponent />
   </>
 );
 
