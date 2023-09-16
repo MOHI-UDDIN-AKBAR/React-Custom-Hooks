@@ -7,8 +7,8 @@
 // import StorageComponent from "./useStorage/StorageComponent";
 // import FetchComponent from "./useFetch/FetchComponent";
 // import DeepCompareEffect from "./useDeepCompareEffect/DeepCompareEffect";
-
-import EventListenerComponent from "./useEventListener/EventListenerComponent";
+// import EventListenerComponent from "./useEventListener/EventListenerComponent";
+import OnScreenComponent from "./useOnScreen/OnScreenComponent";
 
 const App = () => (
   <>
@@ -22,7 +22,8 @@ const App = () => (
     {/* <StorageComponent /> */}
     {/* <FetchComponent /> */}
     {/* <DeepCompareEffect /> */}
-    <EventListenerComponent />
+    {/* <EventListenerComponent /> */}
+    <OnScreenComponent />
   </>
 );
 
