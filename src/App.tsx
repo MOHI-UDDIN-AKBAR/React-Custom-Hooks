@@ -6,8 +6,9 @@
 // import TimeOutComponent from "./useTimeout/TimeOutComponent";
 // import StorageComponent from "./useStorage/StorageComponent";
 // import FetchComponent from "./useFetch/FetchComponent";
+// import DeepCompareEffect from "./useDeepCompareEffect/DeepCompareEffect";
 
-import DeepCompareEffect from "./useDeepCompareEffect/DeepCompareEffect";
+import EventListenerComponent from "./useEventListener/EventListenerComponent";
 
 const App = () => (
   <>
@@ -20,7 +21,8 @@ const App = () => (
     {/* <StateWithHistoryComponent /> */}
     {/* <StorageComponent /> */}
     {/* <FetchComponent /> */}
-    <DeepCompareEffect />
+    {/* <DeepCompareEffect /> */}
+    <EventListenerComponent />
   </>
 );
 
