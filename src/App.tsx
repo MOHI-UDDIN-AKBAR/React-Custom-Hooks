@@ -20,9 +20,8 @@
 // import SizeComponent from "./useSize/SizeComponent";
 // import CookiesComponent from "./useCookies/CookiesComponent";
 // import OnlineComponent from "./useOnline/OnlineComponent";
-
-import DebugInfoComponent from "./useDebugInfo/DebugInfoComponent";
-
+// import DebugInfoComponent from "./useDebugInfo/DebugInfoComponent";
+import HoverComponent from "./useHover/HoverComponent";
 // import RenderCountComponent from "./useRenderCount/RenderCountComponent";
 
 const App = () => (
@@ -51,7 +50,8 @@ const App = () => (
     {/* <CookiesComponent /> */}
     {/* <OnlineComponent /> */}
     {/* <RenderCountComponent /> */}
-    <DebugInfoComponent />
+    {/* <DebugInfoComponent /> */}
+    <HoverComponent />
   </>
 );
 
