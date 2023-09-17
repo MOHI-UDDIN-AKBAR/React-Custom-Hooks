@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { ChildComponentProps } from "./DebugInfoComponent";
+
 const useDebugInfo = (props: ChildComponentProps) => {
   const prevPropsRef = useRef(props);
   const changedPropsRef = useRef<Record<string, any> | null>(null);
