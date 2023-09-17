@@ -18,8 +18,10 @@
 // import CopyToClipBoardCompnent from "./useCopyToClipBoard/CopyToClipBoardCompnent";
 // import DarkModeComponent from "./useDarkMode/DarkModeComponent";
 // import SizeComponent from "./useSize/SizeComponent";
+// import CookiesComponent from "./useCookies/CookiesComponent";
+import OnlineComponent from "./useOnline/OnlineComponent";
 
-import CookiesComponent from "./useCookies/CookiesComponent";
+// import RenderCountComponent from "./useRenderCount/RenderCountComponent";
 
 const App = () => (
   <>
@@ -44,7 +46,9 @@ const App = () => (
     {/* <ClickOutsideComponent /> */}
     {/* <DarkModeComponent /> */}
     {/* <CopyToClipBoardCompnent /> */}
-    <CookiesComponent />
+    {/* <CookiesComponent /> */}
+    <OnlineComponent />
+    {/* <RenderCountComponent /> */}
   </>
 );
 
