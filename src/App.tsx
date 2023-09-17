@@ -15,9 +15,11 @@
 // import StateWithValidationComponent from "./useStateWithValidation/StateWithValidationComponent";
 // import UseEffectOnceComponent from "./useEffectOnce/UseEffectOnceComponent";
 // import ClickOutsideComponent from "./useClickOutside/ClickOutsideComponent";
-import CopyToClipBoardCompnent from "./useCopyToClipBoard/CopyToClipBoardCompnent";
+// import CopyToClipBoardCompnent from "./useCopyToClipBoard/CopyToClipBoardCompnent";
 // import DarkModeComponent from "./useDarkMode/DarkModeComponent";
 // import SizeComponent from "./useSize/SizeComponent";
+
+import CookiesComponent from "./useCookies/CookiesComponent";
 
 const App = () => (
   <>
@@ -41,7 +43,8 @@ const App = () => (
     {/* <UseEffectOnceComponent /> */}
     {/* <ClickOutsideComponent /> */}
     {/* <DarkModeComponent /> */}
-    <CopyToClipBoardCompnent />
+    {/* <CopyToClipBoardCompnent /> */}
+    <CookiesComponent />
   </>
 );
 
