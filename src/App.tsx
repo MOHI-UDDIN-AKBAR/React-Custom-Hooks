@@ -19,9 +19,9 @@
 // import DarkModeComponent from "./useDarkMode/DarkModeComponent";
 // import SizeComponent from "./useSize/SizeComponent";
 // import CookiesComponent from "./useCookies/CookiesComponent";
-import OnlineComponent from "./useOnline/OnlineComponent";
+// import OnlineComponent from "./useOnline/OnlineComponent";
 
-// import RenderCountComponent from "./useRenderCount/RenderCountComponent";
+import RenderCountComponent from "./useRenderCount/RenderCountComponent";
 
 const App = () => (
   <>
@@ -47,8 +47,8 @@ const App = () => (
     {/* <DarkModeComponent /> */}
     {/* <CopyToClipBoardCompnent /> */}
     {/* <CookiesComponent /> */}
-    <OnlineComponent />
-    {/* <RenderCountComponent /> */}
+    {/* <OnlineComponent /> */}
+    <RenderCountComponent />
   </>
 );
 
