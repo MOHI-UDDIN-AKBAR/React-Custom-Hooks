@@ -21,7 +21,9 @@
 // import CookiesComponent from "./useCookies/CookiesComponent";
 // import OnlineComponent from "./useOnline/OnlineComponent";
 
-import RenderCountComponent from "./useRenderCount/RenderCountComponent";
+import DebugInfoComponent from "./useDebugInfo/DebugInfoComponent";
+
+// import RenderCountComponent from "./useRenderCount/RenderCountComponent";
 
 const App = () => (
   <>
@@ -48,7 +50,8 @@ const App = () => (
     {/* <CopyToClipBoardCompnent /> */}
     {/* <CookiesComponent /> */}
     {/* <OnlineComponent /> */}
-    <RenderCountComponent />
+    {/* <RenderCountComponent /> */}
+    <DebugInfoComponent />
   </>
 );
 
