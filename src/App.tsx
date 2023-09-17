@@ -14,7 +14,8 @@
 // import GeolocationComponent from "./useGeolocation/GeolocationComponent";
 // import StateWithValidationComponent from "./useStateWithValidation/StateWithValidationComponent";
 // import UseEffectOnceComponent from "./useEffectOnce/UseEffectOnceComponent";
-import ClickOutsideComponent from "./useClickOutside/ClickOutsideComponent";
+// import ClickOutsideComponent from "./useClickOutside/ClickOutsideComponent";
+import DarkModeComponent from "./useDarkMode/DarkModeComponent";
 // import SizeComponent from "./useSize/SizeComponent";
 
 const App = () => (
@@ -37,7 +38,8 @@ const App = () => (
     {/* <StateWithValidationComponent /> */}
     {/* <SizeComponent /> */}
     {/* <UseEffectOnceComponent /> */}
-    <ClickOutsideComponent />
+    {/* <ClickOutsideComponent /> */}
+    <DarkModeComponent />
   </>
 );
 

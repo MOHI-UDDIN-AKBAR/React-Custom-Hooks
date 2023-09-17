@@ -11,10 +11,14 @@ const useEventListener = (
   }, [callback]);
 
   useEffect(() => {
+    if (element?.current === null) return;
     const handler = (e: any) => callbackRef.current(e);
 
     element.addEventListener(eventType, handler);
-    return () => element.removeEventListener(eventType, handler);
+    return () => {
+      if (element?.current === null) return;
+      element.removeEventListener(eventType, handler);
+    };
   }, [eventType, element]);
 };
 
